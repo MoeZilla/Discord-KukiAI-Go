@@ -18,8 +18,8 @@ func main()  {
 		panic("Unable .env file")
 	}
 
-	Token := os.Getenv("token")
-	if Token == "" {
+	token := os.Getenv("token")
+	if token == "" {
 		panic("enter your bot token")
 	}
 

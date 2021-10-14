@@ -28,7 +28,7 @@ func main()  {
 		panic(err)
 	}
 
-	kk.AddHandler(discord.chatbot)
+	kk.AddHandler(kuki.chatbot)
 	
 	err = kk.Open()
 	if err != nil {

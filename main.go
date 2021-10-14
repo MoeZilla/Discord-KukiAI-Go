@@ -23,6 +23,11 @@ func main()  {
 		panic("enter your bot token")
 	}
 
+        kukikey := os.Getenv("kukikey")
+	if kukikey == "" {
+		panic("contact https://t.me/kukiaisupport ")
+	}
+
 	kk, err := discordgo.New("Bot " + token)
 	if err != nil {
 		panic(err)

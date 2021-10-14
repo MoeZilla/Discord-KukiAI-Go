@@ -15,7 +15,7 @@ import (
 var client = &fasthttp.Client{}
 
 
-func messageCreate(session *discordgo.Session, msg *discordgo.MessageCreate) {
+func chatbot(session *discordgo.Session, msg *discordgo.MessageCreate) {
 	if msg.Author.Bot {
 		return 
 	}

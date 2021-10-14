@@ -1,2 +1,2 @@
 # Discord-KukiAI-Go
-wait I learn discord-go 🤣
+🤤Discord Golang Chatbot 
